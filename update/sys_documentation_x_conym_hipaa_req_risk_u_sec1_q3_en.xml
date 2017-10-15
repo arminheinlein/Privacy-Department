@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_sec1_q3" label="Unintentional acquisition, access, disclosure or use of PHI" language="en" table="x_conym_hipaa_req_risk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_sec1_q3</element>
+            <help/>
+            <hint>Does this incident qualify under one of the following exceptions?&#13;
+a. An unintentional acquisition, access, or use of PHI by a workforce member if such acquisition, access, or use was made in good faith and within the scope of the workforce member's authority and does not result in further use or disclosure not permitted by the privacy rules. (45 C.F.R. § 164.402). For example, no notification is required where an employee mistakenly looks at the wrong patient's PHI but does not further use or disclose the PHI.&#13;
+b. An inadvertent disclosure by a person who is authorized to access PHI to another person authorized to access PHI at the same covered entity or business associate, and the PHI is not further used or disclosed in a manner not permitted by the privacy rules. (Id.). For example, no notification is required if a medical staff member mistakenly discloses PHI to the wrong nurse at a facility but the nurse does not further use or disclose the PHI improperly.&#13;
+c. A disclosure where the person making the disclosure has a good faith belief that the unauthorized recipient would not reasonably be able to retain the PHI. (Id.). For example, no notification is required if a nurse mistakenly hands PHI to the wrong patient but immediately retrieves the information before the recipient has a chance to read it.</hint>
+            <label>Unintentional acquisition, access, disclosure or use of PHI</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_risk</name>
+            <plural>Unintentional acquisition, access, disclosure or use of PHIs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 19:04:17</sys_created_on>
+            <sys_id>e1647a790f9332003ed88b9ae1050e16</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Unintentional acquisition, access, disclosure or use of PHI</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hipaa_req_risk_u_sec1_q3_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-12 19:22:01</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

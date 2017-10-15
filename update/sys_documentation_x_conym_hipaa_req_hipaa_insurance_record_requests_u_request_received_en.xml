@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_request_received" label="Request received" language="en" table="x_conym_hipaa_req_hipaa_insurance_record_requests">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_request_received</element>
+            <help/>
+            <hint/>
+            <label>Request received</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <plural>Request received</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:03</sys_created_on>
+            <sys_id>56f5a6afdbd5b600bc1cf2f9af9619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request received</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hipaa_req_hipaa_insurance_record_requests_u_request_received_en</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-10 18:25:03</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

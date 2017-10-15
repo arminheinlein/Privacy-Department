@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="3b44d6680f9732003ed88b9ae1050eba" sys_domain="global" table="x_conym_hipaa_req_risk" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-08 19:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ff44d6680f9732003ed88b9ae1050ebc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_risk" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">3b44d6680f9732003ed88b9ae1050eba</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">5d039a280f9732003ed88b9ae1050e46</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:31:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 17:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ba1aa310f9332003ed88b9ae1050e67</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_risk" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">3b44d6680f9732003ed88b9ae1050eba</sys_ui_form>
+            <sys_ui_section caption="PHI compromised" display_value="PHI compromised" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">eba1aa310f9332003ed88b9ae1050e64</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-12 18:58:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 17:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3a1aa310f9332003ed88b9ae1050e6c</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_risk" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">3b44d6680f9732003ed88b9ae1050eba</sys_ui_form>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 13:31:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 17:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63a1aa310f9332003ed88b9ae1050e70</sys_id>
+            <sys_mod_count>8</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_risk" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">3b44d6680f9732003ed88b9ae1050eba</sys_ui_form>
+            <sys_ui_section caption="Remediation " display_value="Remediation " name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">63a1aa310f9332003ed88b9ae1050e66</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 13:31:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 19:58:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7c0c7310fd332003ed88b9ae1050e6d</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_risk" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">3b44d6680f9732003ed88b9ae1050eba</sys_ui_form>
+            <sys_ui_section caption="Work Notes" display_value="Work Notes" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">2fc0c7310fd332003ed88b9ae1050e69</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 13:31:05</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_conym_hipaa_req_risk</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-08 19:31:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b44d6680f9732003ed88b9ae1050eba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_conym_hipaa_req_risk</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3b44d6680f9732003ed88b9ae1050eba</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:31:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

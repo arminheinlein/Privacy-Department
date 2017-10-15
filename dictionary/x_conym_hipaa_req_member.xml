@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Member" max_length="40" name="x_conym_hipaa_req_member" type="collection">
+        <element label="Birthday" mandatory="true" max_length="40" name="u_birthday" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="u_first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="u_last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Member ID#" max_length="40" name="u_member_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Middle Initial" max_length="40" name="u_middle_initial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SSN" max_length="40" name="u_ssn" type="string"/>
+        <index name="index">
+            <element name="u_name"/>
+        </index>
+    </element>
+</database>

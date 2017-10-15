@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_boolean_12" label="Associate(s) involved with this incident have been admonished about the incident" language="en" table="x_conym_hipaa_req_risk">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_boolean_12</element>
+            <help/>
+            <hint/>
+            <label>Associate(s) involved with this incident have been admonished about the incident</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_risk</name>
+            <plural>Associate(s) involved with this incident have been admonished about the incident</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-13 13:18:29</sys_created_on>
+            <sys_id>75deeac60f1332003ed88b9ae1050ecd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Associate(s) involved with this incident have been admonished about the incident and necessary disciplinary actions have taken place according to MetroPlus P&amp;Ps and HR Dept.</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hipaa_req_risk_u_boolean_12_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-13 13:18:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

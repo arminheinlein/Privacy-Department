@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Requestor" max_length="40" name="x_conym_hipaa_req_requestor" type="collection">
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Address 1" mandatory="true" max_length="40" name="u_address_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address 2" max_length="40" name="u_address_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Address 3" max_length="40" name="u_address_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" mandatory="true" max_length="40" name="u_city" type="string"/>
+        <element label="Email" max_length="1024" name="u_email" type="email"/>
+        <element label="Fax" max_length="40" name="u_fax" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="+1(212) 999-9999" label="Phone" max_length="40" name="u_phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Reporting person" mandatory="true" max_length="40" name="u_requestor" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element label="AK" sequence="0" value="AK"/>
+                <element label="NY" sequence="0" value="NY"/>
+                <element label="AL" sequence="1" value="AL"/>
+                <element label="AR" sequence="2" value="AR"/>
+                <element label="AZ" sequence="3" value="AZ"/>
+                <element label="CA" sequence="4" value="CA"/>
+                <element label="CO" sequence="5" value="CO"/>
+                <element label="CT" sequence="6" value="CT"/>
+                <element label="DE" sequence="7" value="DE"/>
+                <element label="FL" sequence="8" value="FL"/>
+                <element label="GA" sequence="9" value="GA"/>
+                <element label="HI" sequence="10" value="HI"/>
+                <element label="IA" sequence="11" value="IA"/>
+                <element label="ID" sequence="12" value="ID"/>
+                <element label="IL" sequence="13" value="IL"/>
+                <element label="IN" sequence="14" value="IN"/>
+                <element label="KS" sequence="15" value="KS"/>
+                <element label="KY" sequence="16" value="KY"/>
+                <element label="LA" sequence="17" value="LA"/>
+                <element label="MA" sequence="18" value="MA"/>
+                <element label="MD" sequence="19" value="MD"/>
+                <element label="ME" sequence="20" value="ME"/>
+                <element label="MI" sequence="21" value="MI"/>
+                <element label="MN" sequence="22" value="MN"/>
+                <element label="MO" sequence="23" value="MO"/>
+                <element label="MS" sequence="24" value="MS"/>
+                <element label="MT" sequence="25" value="MT"/>
+                <element label="NC" sequence="26" value="NC"/>
+                <element label="ND" sequence="27" value="ND"/>
+                <element label="NE" sequence="28" value="NE"/>
+                <element label="NH" sequence="29" value="NH"/>
+                <element label="NJ" sequence="30" value="NJ"/>
+                <element label="NM" sequence="31" value="NM"/>
+                <element label="NV" sequence="32" value="NV"/>
+                <element label="OH" sequence="33" value="OH"/>
+                <element label="OK" sequence="34" value="OK"/>
+                <element label="OR" sequence="35" value="OR"/>
+                <element label="PA" sequence="36" value="PA"/>
+                <element label="RI" sequence="37" value="RI"/>
+                <element label="SC" sequence="38" value="SC"/>
+                <element label="SD" sequence="39" value="SD"/>
+                <element label="TN" sequence="40" value="TN"/>
+                <element label="TX" sequence="41" value="TX"/>
+                <element label="UT" sequence="42" value="UT"/>
+                <element label="VA" sequence="43" value="VA"/>
+                <element label="VT" sequence="44" value="VT"/>
+                <element label="WA" sequence="45" value="WA"/>
+                <element label="WI" sequence="46" value="WI"/>
+                <element label="WV" sequence="47" value="WV"/>
+                <element label="WY" sequence="48" value="WY"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="ZIP" mandatory="true" max_length="10" name="u_zip" type="string"/>
+        <index name="index">
+            <element name="u_requestor"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-09 17:02:09</sys_created_on>
+        <sys_id>53ab7eb40f9332003ed88b9ae1050eb2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_conym_hipaa_req_choices.x_conym_hipaa_req.user</sys_name>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_security_acl display_value="x_conym_hipaa_req_choices">97ab7eb40f9332003ed88b9ae1050eaf</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_53ab7eb40f9332003ed88b9ae1050eb2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-09 17:02:09</sys_updated_on>
+        <sys_user_role display_value="x_conym_hipaa_req.user" name="x_conym_hipaa_req.user">6d4e1e6bdbd5b600bc1cf2f9af96197a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

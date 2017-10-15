@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="12f5a6afdbd5b600bc1cf2f9af9619e9" sys_domain="global" table="x_conym_hipaa_req_hipaa_insurance_record_requests" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5af5a6afdbd5b600bc1cf2f9af9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_hipaa_insurance_record_requests" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">12f5a6afdbd5b600bc1cf2f9af9619e9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">4b3426abdbd5b600bc1cf2f9af961952</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-10 18:25:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 19:36:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c966762bdb19b600bc1cf2f9af9619b6</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_hipaa_insurance_record_requests" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">12f5a6afdbd5b600bc1cf2f9af9619e9</sys_ui_form>
+            <sys_ui_section caption="Documents" display_value="Documents" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">8566762bdb19b600bc1cf2f9af9619b6</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:51:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 19:37:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af86f22bdb19b600bc1cf2f9af96190b</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_hipaa_insurance_record_requests" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">12f5a6afdbd5b600bc1cf2f9af9619e9</sys_ui_form>
+            <sys_ui_section caption="Decision" display_value="Decision" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">6b86f22bdb19b600bc1cf2f9af96190b</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-26 04:12:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 19:37:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0da6fa2bdb19b600bc1cf2f9af96193d</sys_id>
+            <sys_mod_count>15</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_conym_hipaa_req_hipaa_insurance_record_requests" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">12f5a6afdbd5b600bc1cf2f9af9619e9</sys_ui_form>
+            <sys_ui_section caption="Payment" display_value="Payment" name="x_conym_hipaa_req_hipaa_insurance_record_requests" sys_domain="global" view="Default view">c5a6fa2bdb19b600bc1cf2f9af96193d</sys_ui_section>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-26 04:12:57</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12f5a6afdbd5b600bc1cf2f9af9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_conym_hipaa_req_hipaa_insurance_record_requests</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_ui_form_sections_12f5a6afdbd5b600bc1cf2f9af9619e9</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-10 18:25:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

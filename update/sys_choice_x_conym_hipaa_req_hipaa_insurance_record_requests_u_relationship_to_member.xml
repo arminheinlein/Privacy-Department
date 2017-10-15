@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_relationship_to_member" table="x_conym_hipaa_req_hipaa_insurance_record_requests" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>0</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-22 16:42:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25914cafdbe1f6006f3cfbb9af961932</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Member (self)</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>1</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6f5e6afdbd5b600bc1cf2f9af961954</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal Counsel for Member</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>2</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bef5e6afdbd5b600bc1cf2f9af961954</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Power of Attorney</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>3</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2f5e6afdbd5b600bc1cf2f9af961955</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Guardian</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>4</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6f5e6afdbd5b600bc1cf2f9af961955</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Executor/Estate Administration</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>5</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>baf5e6afdbd5b600bc1cf2f9af961955</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-22 16:42:32</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_relationship_to_member</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Third Party</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sequence>6</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-04-05 19:57:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9d74bc88dbce3240bc1cf2f9af9619ab</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-04-05 19:58:10</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_relationship_to_member</element>
+            <name>x_conym_hipaa_req_hipaa_insurance_record_requests</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:25:05</sys_created_on>
+            <sys_id>77e9e3190f7103003ed88b9ae1050eac</sys_id>
+            <sys_mod_count>14</sys_mod_count>
+            <sys_name>u_relationship_to_member</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_choice_x_conym_hipaa_req_hipaa_insurance_record_requests_u_relationship_to_member</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 19:23:38</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

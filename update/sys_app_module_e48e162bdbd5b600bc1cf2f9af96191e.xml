@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="HIPAA">ca9d9390dba33a0039b87749af961994</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Members</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_conym_hipaa_req_member</name>
+        <order>210</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_conym_hipaa_req.user</roles>
+        <survey/>
+        <survey_overwrite>true</survey_overwrite>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-03-10 17:52:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e48e162bdbd5b600bc1cf2f9af96191e</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Members</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_app_module_e48e162bdbd5b600bc1cf2f9af96191e</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-06-20 16:44:25</sys_updated_on>
+        <timeline_page/>
+        <title>Members</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

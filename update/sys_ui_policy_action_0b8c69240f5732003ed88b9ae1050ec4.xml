@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_source_other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-08 16:38:17</sys_created_on>
+        <sys_id>0b8c69240f5732003ed88b9ae1050ec4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_source_other</sys_name>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_ui_policy_action_0b8c69240f5732003ed88b9ae1050ec4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-08 16:38:17</sys_updated_on>
+        <table>x_conym_hipaa_req_incident</table>
+        <ui_policy display_value="Show &quot;Other&quot; for source">605ce5240f5732003ed88b9ae1050eb7</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Choices" max_length="40" name="x_conym_hipaa_req_choices" type="collection">
+        <element default="true" label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element display="true" label="Label" mandatory="true" max_length="128" name="u_label" type="string"/>
+        <element label="Table" mandatory="true" max_length="80" name="u_table" type="table_name"/>
+        <element label="Type" mandatory="true" max_length="64" name="u_type" type="string"/>
+        <element label="Value" mandatory="true" max_length="128" name="u_value" type="string"/>
+    </element>
+</database>

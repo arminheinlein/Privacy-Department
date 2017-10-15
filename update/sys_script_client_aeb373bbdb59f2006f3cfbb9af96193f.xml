@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_active</field>
+        <global>true</global>
+        <messages/>
+        <name>Check for mandatory attachment</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+	var state=g_form.getValue('u_request_state');
+	g_form.hideFieldMsg("u_hipaa_release");
+	g_form.hideFieldMsg("u_power_of_attorney");
+	g_form.hideFieldMsg("u_guardianship_papers");
+	g_form.hideFieldMsg("u_guardianship_papers");
+	g_form.hideFieldMsg("u_letters_of_administration");
+	
+
+	// The status was set to approve the request. Checkk need to be performed
+	if(state =='1'){
+		// Check if HIPAA form is attached
+		if(g_form.getValue('u_hipaa_release') == 'false') {
+			g_form.setValue('u_request_state','0');
+			g_form.addErrorMessage("HIPAA Release not attached to request. Approval was reset to Pending.");
+			g_form.showFieldMsg("u_hipaa_release", "HIPAA Release not attached to request.");
+			return false;
+		}
+		// Relationship power of attorney but document is not attached
+		if(g_form.getValue('u_relationship_to_member') == '2' && g_form.getValue('u_power_of_attorney') == 'false') {
+			g_form.setValue('u_request_state','0');
+			g_form.addErrorMessage('Power of Attorney not attached to request. Approval was reset to Pending.');
+			g_form.showFieldMsg("u_power_of_attorney", "Power of Attorney not attached to request.");
+			return false;
+		}
+		// Guardian but document is not attached
+		if(g_form.getValue('u_relationship_to_member') == '3' && g_form.getValue('u_guardianship_papers') == 'false') {
+			g_form.setValue('u_request_state','0');	
+			g_form.addErrorMessage("Guardianship Papers not attached to request. Approval was reset to Pending.");
+			g_form.showFieldMsg("u_guardianship_papers", "Guardianship Papers not attached to request.");
+			return false;
+		}
+		// Excutor/Estate Administration but document is not attached
+		if(g_form.getValue('u_relationship_to_member') == '4'){
+				if(g_form.getValue('u_death_certificate') == 'false' || g_form.getValue('u_letters_of_administration') == 'false') {
+					g_form.setValue('u_request_state','0');
+					g_form.addErrorMessage('Death Certificate or Letters of Administration not attached to request. Approval was reset to Pending.');
+					if(g_form.getValue('u_death_certificate') == 'false') {
+						g_form.FieldMsg("u_death_certificate", "Death Certificate not attached to request.");
+					}
+					if(g_form.getValue('u_letters_of_administration') == 'false') {
+						g_form.showFieldMsg("u_letters_of_administration", "Letter of Administration not attached to request.");
+					}
+					return false;
+				}
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-03-11 18:44:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>aeb373bbdb59f2006f3cfbb9af96193f</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Check for mandatory attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_script_client_aeb373bbdb59f2006f3cfbb9af96193f</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-03-20 15:53:50</sys_updated_on>
+        <table>x_conym_hipaa_req_hipaa_insurance_record_requests</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

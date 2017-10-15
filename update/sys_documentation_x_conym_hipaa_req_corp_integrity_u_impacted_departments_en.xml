@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_impacted_departments" label="Impacted departments" language="en" table="x_conym_hipaa_req_corp_integrity">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_impacted_departments</element>
+            <help/>
+            <hint/>
+            <label>Impacted departments</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_corp_integrity</name>
+            <plural>Impacted departments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-20 14:05:26</sys_created_on>
+            <sys_id>ec7a81bedb29b6006f3cfbb9af961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Impacted departments</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_documentation_x_conym_hipaa_req_corp_integrity_u_impacted_departments_en</sys_update_name>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-20 14:05:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

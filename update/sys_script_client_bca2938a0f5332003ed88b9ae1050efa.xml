@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <messages/>
+        <name>Change Color of Buttons (risk)</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Change the color of the button to green
+	changeButtonColor('sysverb_insert', '#00CC00');
+	changeButtonColor('sysverb_update', '#00CC00');	
+	changeButtonColor('risk_close', '#00CC00');
+			
+	//Change the color of the button to blue
+	changeButtonColor('add_attachment', '#1E90FF');
+
+	
+	//Change the color of the button to red
+	changeButtonColor('sysverb_delete', '#CC0000');
+	
+}
+
+function changeButtonColor(buttonID, backgroundColor) {
+   try{
+      //Find the button(s) by ID and change the background color
+      $$('button[id=' + buttonID + ']').each(function(elmt) {
+         elmt.style.backgroundColor = backgroundColor;
+         elmt.style.color = '#ffffff'; //make the button text white
+      });
+   }catch(e){}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-13 15:54:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bca2938a0f5332003ed88b9ae1050efa</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Change Color of Buttons (risk)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_script_client_bca2938a0f5332003ed88b9ae1050efa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-15 19:30:28</sys_updated_on>
+        <table>x_conym_hipaa_req_risk</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

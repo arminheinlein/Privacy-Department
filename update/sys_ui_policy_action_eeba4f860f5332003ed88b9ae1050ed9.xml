@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_member_notification_date</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-13 15:20:53</sys_created_on>
+        <sys_id>eeba4f860f5332003ed88b9ae1050ed9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_member_notification_date</sys_name>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_ui_policy_action_eeba4f860f5332003ed88b9ae1050ed9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-13 15:20:53</sys_updated_on>
+        <table>x_conym_hipaa_req_risk</table>
+        <ui_policy display_value="Make Member notification date mandatory">177acb860f5332003ed88b9ae1050ee0</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

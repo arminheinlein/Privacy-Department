@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>crt_risk_assessment</action_name>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.u_state &lt;='1 '</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Risk Assessment</name>
+        <onclick/>
+        <order>300</order>
+        <script><![CDATA[// create associated risk assessment record for the privacy investigation
+var gr = new GlideRecord('x_conym_hipaa_req_risk');
+gr.addQuery('u_priv_investigation', current.u_privacy_investigation);
+gr.query();
+
+if(!gr.next()){
+	gr.u_privacy_investigation = current.sys_id;
+	gr.insert();
+	
+	// Update investigation record with number from risk assessment
+	current.u_work_notes = 'Risk assessment record created.';
+	current.u_state = '2';
+	current.update();
+	
+	var urlTable = 'x_conym_hipaa_req_risk';
+	var instance = gs.getProperty("instance_name");
+	// Create the return URL
+	var taskURL1 = 'https://' +instance +'.service-now.com/' +urlTable;
+	var taskURL2 = '.do?sys_id=' +gr.sys_id;
+	var taskURL = '<p><a class="web" href="' + taskURL1 + taskURL2 + '">' + gr.number + '</a></p>';
+	
+	gs.info("taskURL1 = " + taskURL1);
+	gs.info("taskURL2 = " + taskURL2);
+	gs.info("taskURL = " + taskURL);
+	
+	gs.addInfoMessage('Risk Assessment record created. Click on the link below to go to the risk assessment record.' +taskURL );
+	action.setRedirectURL(current);
+}
+else{
+	gs.addErrorMessage("Risk Assessment record exist already. ");
+	current.setAbortAction(true);
+}
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-08 18:27:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b645ca200f9732003ed88b9ae1050e9e</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Create Risk Assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_ui_action_b645ca200f9732003ed88b9ae1050e9e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-19 17:52:05</sys_updated_on>
+        <table>x_conym_hipaa_req_incident</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

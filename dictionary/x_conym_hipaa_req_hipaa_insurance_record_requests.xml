@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="email_client=true" audit="true" label="HIPAA Insurance Record Requests" max_length="40" name="x_conym_hipaa_req_hipaa_insurance_record_requests" type="collection">
+        <element attributes="field_decorations=member_show_requests" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element default="true" label="Active" max_length="40" name="u_active" read_only="true" type="boolean"/>
+        <element attributes="omit_sys_original=true" label="Amount owed" max_length="15" name="u_amount_owed" type="currency"/>
+        <element label="Birth Certificate" max_length="40" name="u_birth_certificate" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed by" max_length="40" name="u_closed_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Closed" max_length="40" name="u_closed_on" read_only="true" type="glide_date_time"/>
+        <element label="Date response sent" max_length="40" name="u_date_response_sent" type="glide_date"/>
+        <element label="Death Certificate" max_length="40" name="u_death_certificate" type="boolean"/>
+        <element label="Decision date" max_length="40" name="u_decision_date" type="glide_date"/>
+        <element label="Guardianship Papers" max_length="40" name="u_guardianship_papers" type="boolean"/>
+        <element label="Has Attachments" max_length="40" name="u_has_attachments" type="boolean"/>
+        <element label="HIPAA Release (OCA-960)" max_length="40" name="u_hipaa_release" type="boolean"/>
+        <element label="Last email received" max_length="40" name="u_last_email_received" read_only="true" type="glide_date_time"/>
+        <element label="Letters of Administration" max_length="40" name="u_letters_of_administration" type="boolean"/>
+        <element attributes="ref_contributions=member_show_requests" label="Member" mandatory="true" max_length="32" name="u_member" reference="x_conym_hipaa_req_member" type="reference"/>
+        <element label="Paid" max_length="40" name="u_paid" type="boolean"/>
+        <element label="Power of Attorney" max_length="40" name="u_power_of_attorney" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="5" label="Relationship to Member" mandatory="true" max_length="40" name="u_relationship_to_member" type="string">
+            <choice>
+                <element label="Other" sequence="0" value="5"/>
+                <element label="Member (self)" sequence="1" value="0"/>
+                <element label="Legal Counsel for Member" sequence="2" value="1"/>
+                <element label="Power of Attorney" sequence="3" value="2"/>
+                <element label="Guardian" sequence="4" value="3"/>
+                <element label="Executor/Estate Administration" sequence="5" value="4"/>
+                <element label="Third Party" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element attributes="ref_contributions=requestor_show_requests" label="Requestor" mandatory="true" max_length="32" name="u_requestor" reference="x_conym_hipaa_req_requestor" type="reference"/>
+        <element label="Request received" mandatory="true" max_length="40" name="u_request_received" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="0" label="Request Status" max_length="40" name="u_request_state" type="string">
+            <choice>
+                <element label="Pending: Additional Docs required" sequence="0" value="0"/>
+                <element label="Approved" sequence="1" value="1"/>
+                <element label="Denied" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="UPS tracking number" max_length="40" name="u_ups_tracking_number" type="string"/>
+        <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_member"/>
+        </index>
+        <index name="index2">
+            <element name="u_closed_by"/>
+        </index>
+        <index name="index3">
+            <element name="u_requestor"/>
+        </index>
+    </element>
+</database>

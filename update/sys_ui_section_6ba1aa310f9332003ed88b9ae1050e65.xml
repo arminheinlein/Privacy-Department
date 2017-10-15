@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Notification" section_id="6ba1aa310f9332003ed88b9ae1050e65" sys_domain="global" table="x_conym_hipaa_req_risk" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>398e9e400fa332003ed88b9ae1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <text/>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_notification_member</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>f98e9e400fa332003ed88b9ae1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_member_notification_date</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>7d8e9e400fa332003ed88b9ae1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_4</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>fd8e9e400fa332003ed88b9ae1050e7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ocr_notification_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>718e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>398e9e400fa332003ed88b9ae1050e7c</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>f18e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_sec3_completed</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>758e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>f58e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_3</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>798e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_cms_notification_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>f98e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_5</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>7d8e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_nys_notification_date</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-19 17:15:04</sys_created_on>
+            <sys_id>fd8e9e400fa332003ed88b9ae1050e7d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Notification" display_value="Notification" name="x_conym_hipaa_req_risk" sys_domain="global" view="Default view">6ba1aa310f9332003ed88b9ae1050e65</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 17:15:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Notification</caption>
+            <header>false</header>
+            <name>x_conym_hipaa_req_risk</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-06-12 17:42:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6ba1aa310f9332003ed88b9ae1050e65</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Notification</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_ui_section_6ba1aa310f9332003ed88b9ae1050e65</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-13 13:10:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide sections 2 and 3 when question number 3 is Yes</description>
+        <field>u_sec1_q3</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide sections (Question 3)</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	// get the info from the screen 
+	if(newValue == 'Yes'){
+		g_form.setSectionDisplay('phi_compromised', false);
+		g_form.setSectionDisplay('notification', false);
+	}
+	else{
+		g_form.setSectionDisplay('phi_compromised', true);
+		g_form.setSectionDisplay('notification', true);	
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-06-13 17:18:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dfa527860f9332003ed88b9ae1050e5a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Hide sections (Question 3)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_script_client_dfa527860f9332003ed88b9ae1050e5a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-06-13 17:59:41</sys_updated_on>
+        <table>x_conym_hipaa_req_risk</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Risk Assessments" max_length="40" name="x_conym_hipaa_req_risk" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Risk Assessment" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Answer" max_length="40" name="sec1_questions_1" type="string">
+            <choice/>
+        </element>
+        <element label="Additional Data Security Action Taken" max_length="40" name="u_add_action_taken" type="boolean"/>
+        <element label="Additional staff training needed to mitigate in the future" max_length="40" name="u_boolean_10" type="boolean"/>
+        <element label="Associate(s) involved with this incident reminded / retrained of P&amp;Ps for proper" max_length="40" name="u_boolean_11" type="boolean"/>
+        <element label="Associate(s) involved with this incident have been admonished about the incident" max_length="40" name="u_boolean_12" type="boolean"/>
+        <element label="MetroPlus Policies &amp; Procedures to be reviewed / updated" max_length="40" name="u_boolean_13" type="boolean"/>
+        <element label="New MetroPlus P&amp;P Needed" max_length="40" name="u_boolean_14" type="boolean"/>
+        <element label="Employee Sanctions" max_length="40" name="u_boolean_15" type="boolean"/>
+        <element label="CMS" max_length="40" name="u_boolean_3" type="boolean"/>
+        <element label="OCR" max_length="40" name="u_boolean_4" type="boolean"/>
+        <element label="NYS" max_length="40" name="u_boolean_5" type="boolean"/>
+        <element label="N/A, Incident/Breach occurred outside of MetroPlus/or delegate control, no remed" max_length="40" name="u_boolean_9" type="boolean"/>
+        <element label="Date of CMS notification" max_length="40" name="u_cms_notification_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Comments" max_length="1260" name="u_comments" type="string"/>
+        <element label="Encryption update, as applicable" max_length="40" name="u_encryption" type="boolean"/>
+        <element label="Incident type" mandatory="true" max_length="4000" name="u_incident_type" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=incident_type^u_active=true^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=incident_type^u_active=true^EQ" type="glide_list"/>
+        <element label="Date of member notification" max_length="40" name="u_member_notification_date" type="glide_date"/>
+        <element label="Member" max_length="40" name="u_notification_member" type="boolean"/>
+        <element label="Date of NYS notification" max_length="40" name="u_nys_notification_date" type="glide_date"/>
+        <element label="Date of OCR notification" max_length="40" name="u_ocr_notification_date" type="glide_date"/>
+        <element label="Privacy Investigation" max_length="32" name="u_privacy_investigation" reference="x_conym_hipaa_req_incident" reference_cascade_rule="cascade" type="reference"/>
+        <element label="Recoding of systems, as applicable" max_length="40" name="u_recoding_of_system" type="boolean"/>
+        <element label="Other" max_length="40" name="u_remediation_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_remediation_other_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" hint="Is there a HIPAA Privacy or Security Rule violation involving the acquisition, access, use or disclosure of PHI?" label="HIPAA Privacy or Security Rule violation" mandatory="true" max_length="40" name="u_sec1_q1" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" hint="Was data secured or properly destroyed in compliance with the requirements which state only encryption and destruction, consistent with National Institute of Standards and Technology (NIST) guidelines 13402(h)(2) under public law 111-5, renders protected health information unusable, unreadable, or indecipherable to &quot;unauthorized persons.&quot;" label="Data secured or properly destroyed" max_length="40" name="u_sec1_q2" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" hint="Does this incident qualify under one of the following exceptions?&#13;&#10;a. An unintentional acquisition, access, or use of PHI by a workforce member if such acquisition, access, or use was made in good faith and within the scope of the workforce member's authority and does not result in further use or disclosure not permitted by the privacy rules. (45 C.F.R. § 164.402). For example, no notification is required where an employee mistakenly looks at the wrong patient's PHI but does not further use or disclose the PHI.&#13;&#10;b. An inadvertent disclosure by a person who is authorized to access PHI to another person authorized to access PHI at the same covered entity or business associate, and the PHI is not further used or disclosed in a manner not permitted by the privacy rules. (Id.). For example, no notification is required if a medical staff member mistakenly discloses PHI to the wrong nurse at a facility but the nurse does not further use or disclose the PHI improperly.&#13;&#10;c. A disclosure where the person making the disclosure has a good faith belief that the unauthorized recipient would not reasonably be able to retain the PHI. (Id.). For example, no notification is required if a nurse mistakenly hands PHI to the wrong patient but immediately retrieves the information before the recipient has a chance to read it." label="Unintentional acquisition, access, disclosure or use of PHI" max_length="40" name="u_sec1_q3" type="string">
+            <choice>
+                <element label="Yes" sequence="0" value="Yes"/>
+                <element label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+        <element label="PHI completed" max_length="40" name="u_sec2_completed" type="boolean"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Low Probability" max_length="1024" name="u_sec2_q1_low_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q1LowProb^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q1LowProb^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Probability" max_length="1024" name="u_sec2_q1_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q1Prob^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q1Prob^EQ" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Low Probability" max_length="1024" name="u_sec2_q2_low_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q2LowProb^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q2LowProb^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_sec2_q2_low_prop_other" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Probability" max_length="1024" name="u_sec2_q2_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q2Prob^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q2Prob^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_sec2_q2_prop_other" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Low Probability" max_length="1024" name="u_sec2_q3_low_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q3LowProb^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q3LowProb^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_sec2_q3_low_prop_other" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Probability" max_length="1024" name="u_sec2_q3_prop" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q3Prob^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q3Prob^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_sec2_q3_prop_other" type="string"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Selection" max_length="1024" name="u_sec2_q4" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_risk^u_type=Q4^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_risk^u_type=Q4^EQ" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Select" max_length="40" name="u_sec2_selection" type="string">
+            <choice>
+                <element label="Low" sequence="0" value="Low"/>
+                <element label="Low Due to Application of Mitigation and/or Other factors" sequence="1" value="Medium"/>
+                <element label="High" sequence="2" value="High"/>
+            </choice>
+        </element>
+        <element label="Notification completed" max_length="40" name="u_sec3_completed" type="boolean"/>
+        <element label="Remediation completed" max_length="40" name="u_sec4_completed" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_sec_q4_other" type="string"/>
+        <element choice="3" default="0" label="State" max_length="40" name="u_state" read_only="true" type="choice">
+            <choice>
+                <element label="Open" sequence="1" value="0"/>
+                <element label="Closed" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element label="Active/Ongoing" sequence="0" value="active"/>
+                <element label="Post incident" sequence="1" value="post"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Incident type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element label="Potential" sequence="0" value="potential"/>
+                <element label="Actual" sequence="1" value="Actual"/>
+            </choice>
+        </element>
+        <element label="Other (Specify)" max_length="40" name="u_ua_other" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_ua_other_text" type="string"/>
+        <element label="Work Notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_privacy_investigation"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_requestor_type" table="x_conym_hipaa_req_requestor" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_requestor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Law Firm</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_requestor</name>
+            <sequence>0</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:14:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d736e2fdbd5b600bc1cf2f9af961953</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-10 18:14:06</sys_updated_on>
+            <value>Law Firm</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_requestor_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Third Party</label>
+            <language>en</language>
+            <name>x_conym_hipaa_req_requestor</name>
+            <sequence>1</sequence>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:14:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f1736e2fdbd5b600bc1cf2f9af961954</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+            <sys_updated_on>2017-03-10 18:14:06</sys_updated_on>
+            <value>Third Party</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_requestor_type</element>
+            <name>x_conym_hipaa_req_requestor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>heinleia@metroplus.org</sys_created_by>
+            <sys_created_on>2017-03-10 18:14:06</sys_created_on>
+            <sys_id>f7e9e3190f7103003ed88b9ae1050ed2</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_name>u_requestor_type</sys_name>
+            <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+            <sys_update_name>sys_choice_x_conym_hipaa_req_requestor_u_requestor_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-06-19 19:23:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

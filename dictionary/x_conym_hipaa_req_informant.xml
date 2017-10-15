@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_conym_hipaa_req_requestor" label="Informant" max_length="40" name="x_conym_hipaa_req_informant" type="collection">
+        <element default="+1 (*212) 999-9999" label="Cell Phone" max_length="40" name="u_cell_phone" type="phone_number_e164"/>
+    </element>
+</database>

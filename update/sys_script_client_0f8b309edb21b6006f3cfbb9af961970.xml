@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_birthday</field>
+        <global>true</global>
+        <messages/>
+        <name>Verify that MemberID or SSN is filled</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   
+	var ssn = g_form.getValue('u_ssn');
+	var memberid = g_form.getValue('u_member_id');
+	
+	if (ssn == '' && memberid == '') {
+		g_form.addErrorMessage('Member ID or SSN needs to be entered.'); 
+		return false;
+	}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-03-18 23:48:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0f8b309edb21b6006f3cfbb9af961970</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Verify that MemberID or SSN is filled</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_script_client_0f8b309edb21b6006f3cfbb9af961970</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-03-18 23:56:12</sys_updated_on>
+        <table>x_conym_hipaa_req_member</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>u_name</col_name_string>
+        <index_col_name element="u_name" name="x_conym_hipaa_req_member">ad1022ebdbd5b600bc1cf2f9af96191f</index_col_name>
+        <logical_table_name>x_conym_hipaa_req_member</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>heinleia@metroplus.org</sys_created_by>
+        <sys_created_on>2017-03-12 13:40:19</sys_created_on>
+        <sys_id>baf7fb84dbadf2006f3cfbb9af96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_conym_hipaa_req_member</sys_name>
+        <sys_package display_value="Privacy Department" source="x_conym_hipaa_req">654e122bdbd5b600bc1cf2f9af961938</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Privacy Department">654e122bdbd5b600bc1cf2f9af961938</sys_scope>
+        <sys_update_name>sys_index_x_conym_hipaa_req_member_u_name</sys_update_name>
+        <sys_updated_by>heinleia@metroplus.org</sys_updated_by>
+        <sys_updated_on>2017-03-12 13:40:19</sys_updated_on>
+        <table/>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

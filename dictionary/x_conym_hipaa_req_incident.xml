@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element attributes="hasLabels=true" audit="true" label="Investigation" max_length="40" name="x_conym_hipaa_req_incident" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Incident Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Disclosure contained" max_length="40" name="u_contained" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Type of data exposed" max_length="1028" name="u_data_exposed" type="string"/>
+        <element label="Department" max_length="32" name="u_department" reference="cmn_department" type="reference"/>
+        <element label="Department involved" max_length="32" name="u_deprt_involved" reference="cmn_department" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description/Summary" mandatory="true" max_length="1300" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Device type" max_length="40" name="u_device" type="string">
+            <choice>
+                <element label="PC" sequence="0" value="pc"/>
+                <element label="Laptop" sequence="1" value="laptop"/>
+                <element label="Smartphone" sequence="2" value="smartphone"/>
+                <element label="Tablet" sequence="3" value="tablet"/>
+                <element label="Other" sequence="4" value="Other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other device" mandatory="true" max_length="40" name="u_device_other" type="string"/>
+        <element label="Email" max_length="40" name="u_email" type="string"/>
+        <element label="Incident Date" max_length="128" name="u_incident_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Lines of business" max_length="40" name="u_lob" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Media type of data exposed" max_length="40" name="u_media" reference="x_conym_hipaa_req_choices" reference_qual="u_table=x_conym_hipaa_req_incident^u_type=media_type^u_active=true^EQ" reference_qual_condition="u_table=x_conym_hipaa_req_incident^u_type=media_type^u_active=true^EQ" type="glide_list">
+            <choice>
+                <element label="Electronic" sequence="0" value="electronic"/>
+                <element label="Printed/Paper" sequence="1" value="printed"/>
+                <element label="Verbal" sequence="2" value="verbal"/>
+            </choice>
+        </element>
+        <element hint="Enter phone numberwith a leading &quot;1&quot; for long distance" label="Preferred Contact Number" max_length="40" name="u_phone" type="phone_number_e164"/>
+        <element hint="When was the incident reported" label="Reported" mandatory="true" max_length="40" name="u_reported" type="glide_date"/>
+        <element hint="Who reported the privacy incident" label="Reported by" max_length="32" name="u_reported_by" reference="x_conym_hipaa_req_informant" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Scope of exposure" max_length="40" name="u_scope" type="string">
+            <choice>
+                <element label="1 person" sequence="0" value="1"/>
+                <element label="2-5 persons" sequence="1" value="2"/>
+                <element label="6-10 persons" sequence="2" value="3"/>
+                <element label="&gt; 10 persons" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element choice="1" label="Source of the incident" max_length="40" name="u_source" type="choice">
+            <choice>
+                <element label="MetroPlus" sequence="1" value="0"/>
+                <element label="Vendor/Business Associate" sequence="2" value="1"/>
+                <element label="Vendor Sub-contractor" sequence="3" value="2"/>
+                <element label="Other" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Other source" mandatory="true" max_length="40" name="u_source_other" type="string"/>
+        <element choice="3" default="0" label="State" max_length="40" name="u_state" read_only="true" type="choice">
+            <choice>
+                <element label="New" sequence="1" value="0"/>
+                <element label="In Progress" sequence="2" value="1"/>
+                <element label="Risk Assessment" sequence="3" value="2"/>
+                <element label="Closed" sequence="4" value="3"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="40" name="u_title" type="string"/>
+        <element label="Work notes" max_length="4000" name="u_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="u_reported_by"/>
+        </index>
+        <index name="index2">
+            <element name="u_department"/>
+        </index>
+        <index name="index3">
+            <element name="u_deprt_involved"/>
+        </index>
+    </element>
+</database>
